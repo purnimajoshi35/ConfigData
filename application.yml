@@ -3,11 +3,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
-
-
 ---
 spring:
-  profiles: subject
+  profiles: lab-4-subject
 words: I,You,He,She,It
 
 ---
